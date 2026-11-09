@@ -4,7 +4,7 @@
 
 In TypeScript we can create type definitions via `type` Aliases or `interfaces`. Whilst the two are similar, they have different features which should be noted to help you make a clear and maintainable decision.
 
-## Detailed Explanation
+### Detailed Explanation
 
 Interfaces are typically used to define the shape for an object or class. Interfaces can be extended and you can merge/extend interface with the same name:
 
@@ -21,7 +21,7 @@ interface Admin extends User {
 const admin: Admin = {
   id: 1,
   name: "Mina",
-  permissions: ["manage-users"]
+  permissions: ["manage-users"],
 };
 ```
 
